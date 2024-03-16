@@ -7,7 +7,7 @@ import seaborn as sns
 import palmerpenguins  # This package provides the Palmer Penguins dataset
 
 # Use the built-in function to load the Palmer Penguins dataset
-penguins_df = palmerpenguins.load_penguins()
+penguins_df = load_penguins()
 
 ui.page_opts(title="Penguin Data- Montoya", fillable=True)
 with ui.layout_columns():
